@@ -1,0 +1,125 @@
+.site-hero {
+  padding-top: 56px;
+  padding-bottom: 255px;
+  background: #014E56;
+  background-image: url("../img/hero-bgi-left.png"), url("../img/hero-bgi-bottom.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px, 360px 200px;
+  background-position: calc(50% - 730px) calc(50% - 90px), calc(50% + 370px) calc(50% + 255px);
+  }
+  
+  .site-hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .site-hero__headeing {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  
+  .site-hero__span{
+  color:#F67E7E ;
+  }
+  
+  .site-hero__content {
+    width: 100%;
+  max-width: 445px;
+  }
+  
+  .site-hero__line {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #79C8C7;
+  margin-bottom: 80px;
+  }
+  
+  .site-hero__text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+
+  
+
+  
+  @media only screen and (max-width:768px){
+    .site-hero__line{
+      display: none;
+    }
+
+    .site-hero__inner {
+      flex-direction: column;
+    }
+
+    .site-hero__headeing{
+      margin-bottom: 24px;
+      font-weight: 700;
+font-size: 64px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+    }
+
+    .site-hero__text{
+      font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+    }
+
+    .site-hero {
+      padding-top: 56px;
+      background-image:  url("../img/hero-bgi-bottom.png");
+      background-repeat: no-repeat;
+      background-size:  360px 200px;
+      background-position:  calc(50% ) calc(50% + 270px);
+      }
+
+}
+
+
+@media only screen and (max-width:576px){
+  .site-hero__line{
+    display: none;
+  }
+
+  .site-hero__inner {
+    flex-direction: column;
+  }
+
+  .site-hero__headeing{
+    margin-bottom: 18px;
+    font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+  }
+
+  .site-hero {
+    padding-top: 32px;
+    padding-bottom: 197px;
+    background-image:  url("../img/hero-bgi-bottom.png");
+    background-repeat: no-repeat;
+    background-size:  360px 200px;
+    background-position:  calc(50% ) calc(50% + 210px);
+    }
+
+    .site-hero__text{
+      font-weight: 600;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+    }
+
+}

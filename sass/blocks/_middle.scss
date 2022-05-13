@@ -1,0 +1,232 @@
+
+.site-middle {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background: #012F34;
+  background-image: url("../img/middle-bgi-bottom.png");
+  background-repeat: no-repeat;
+  background-size: 200px 245px;
+  background-position: calc(50% + 720px) calc(50% + 210px);
+  }
+  
+  .site-middle__inner {
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .site-middle__left__content {
+    width: 100%;
+  max-width: 445px;
+  }
+  
+  .site-middle__line {
+    display: block;
+  width: 50px;
+  height: 4px;
+  background: #79C8C7;
+  margin-bottom: 54px;
+  }
+  
+  .site-middle__heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  
+  
+  .site-middle__right__content {
+    width: 100%;
+  max-width: 540px;
+  }
+  
+  
+  .right-content__list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  
+  }
+  
+  .right-content__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  }
+  
+  .right-content__item--active{
+    margin: 0;
+  }
+  
+  .right-content__item__img {
+    width: 72px;
+    height: 72px;
+  }
+  
+  
+  
+  .middle-piece {
+    width: 100%;
+  max-width: 450px;
+  }
+  
+  .middle-piece__span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F67E7E;
+    margin-bottom: 16px;
+  }
+  
+  .middle-piece__text {
+    font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 0;
+  }
+
+  @media only screen and (max-width:768px){
+
+    .site-middle {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-image: url("../img/middle-bgi-bottom.png");
+      background-repeat: no-repeat;
+      background-size: 200px 245px;
+      background-position: calc(50% + 385px) top;
+      }
+
+    .site-middle__inner {
+      flex-direction: column;
+    
+    }
+
+    .site-middle__line {
+      margin-bottom: 32px;
+    }
+
+    .site-middle__heading{
+      margin-bottom: 64px;
+      font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+color: #FFFFFF;
+    }
+
+    .site-middle__left__content{
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .site-middle__right__content {
+      width: 100%;
+      min-width: 573px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .middle-piece {
+      width: 100%;
+      min-width: 478px;
+    }
+
+    .middle-piece__span {
+      font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #F67E7E;
+      margin-bottom: 16px;
+    }
+    
+    .middle-piece__text {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 25px;
+      color: #FFFFFF;
+    margin: 0;
+    }
+
+}
+
+
+@media only screen and (max-width:576px){
+
+  .site-middle {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-image: url("../img/middle-bgi-bottom.png");
+    background-repeat: no-repeat;
+    background-size: 200px 245px;
+    background-position: calc(50% + 290px) top;
+    }
+
+  .site-middle__inner {
+    flex-direction: column;
+  
+  }
+
+  .site-middle__line {
+    margin-bottom: 32px;
+  }
+
+  .site-middle__heading{
+    margin-bottom: 56px;
+    font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+color: #FFFFFF;
+
+  }
+
+  .site-middle__left__content{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .site-middle__right__content {
+    width: 100%;
+    min-width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .middle-piece {
+    width: 100%;
+    min-width: 327px;
+  }
+
+  .middle-piece__span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #F67E7E;
+    margin-bottom: 8px;
+  }
+  
+  .middle-piece__text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .right-content__item{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .right-content__item:last-child{
+    margin: 0;
+  }
+
+  .right-content__item__img{
+    margin-bottom: 16px;
+  }
+
+}
