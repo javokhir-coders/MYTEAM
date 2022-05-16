@@ -1,17 +1,17 @@
 .site-our-serves {
-padding-top: 140px;
-padding-bottom: 140px;
-background: #012F34;
-background-image: url("../img/our-serves-bgi.png");
-background-repeat: no-repeat;
-background-size: 200px 200px;
-background-position: calc(50% - 620px) top;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background: #012F34;
+  background-image: url("../img/our-serves-bgi.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: calc(50% - 620px) top;
 }
 
 
 .site-our-serves__inner {
-width: 100%;
-max-width: 1110px;
+  width: 100%;
+  max-width: 1110px;
 }
 
 .site-our-serves__heading {
@@ -26,13 +26,13 @@ max-width: 1110px;
 
 .site-our-serves__list {
   width: 100%;
-max-width: 1110px;
-list-style-type: none;
-padding-left: 0;
-margin: 0;
-display: flex;
-align-items: center;
-justify-content: space-between;
+  max-width: 1110px;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .site-our-serves__item {
@@ -40,16 +40,16 @@ justify-content: space-between;
 }
 
 .site-our-serves__item:last-child{
-margin: 0;
+  margin: 0;
 }
 
 .site-our-serves__img {
-
-
+  
+  
 }
 
 @media only screen and (max-width:768px){
-
+  
   .site-our-serves {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -58,47 +58,47 @@ margin: 0;
     background-repeat: no-repeat;
     background-size: 200px 200px;
     background-position: calc(50% - 285px) calc(50% - 170px);
-    }
-    
-    
-    .site-our-serves__inner {
+  }
+  
+  
+  .site-our-serves__inner {
     width: 100%;
     max-width: 689px;
-    }
-    
-    .site-our-serves__heading {
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 48px;
-      text-align: center;
-      color: #FFFFFF;
-      margin: 0;
-      margin-bottom: 70px;
-    }
-    
-    .site-our-serves__list {
-      width: 100%;
-      max-width: 689px;
+  }
+  
+  .site-our-serves__heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 70px;
+  }
+  
+  .site-our-serves__list {
+    width: 100%;
+    max-width: 689px;
     list-style-type: none;
     padding-left: 0;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    }
+  }
+  
+  .site-our-serves__item {
+    margin-right: 20px;
+  }
+  
+  .site-our-serves__item:last-child{
+    margin: 0;
+  }
+  
+  .site-our-serves__img {
     
-    .site-our-serves__item {
-      margin-right: 20px;
-    }
     
-    .site-our-serves__item:last-child{
-      margin: 0;
-    }
-    
-    .site-our-serves__img {
-    
-    
-    }
+  }
 }
 
 
@@ -118,47 +118,47 @@ margin: 0;
     background-repeat: no-repeat;
     background-size: 200px 200px;
     background-position: calc(50% - 290px) calc(50% - 300px);
-    }
-    
-    
-    .site-our-serves__inner {
+  }
+  
+  
+  .site-our-serves__inner {
     width: 100%;
     max-width: 1110px;
     flex-direction: column;
     text-align: center;
-    }
-    
-    .site-our-serves__heading {
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 48px;
-      text-align: center;
-      color: #FFFFFF;
-      margin: 0;
-      margin-bottom: 64px;
-    }
-    
-    .site-our-serves__list {
+  }
+  
+  .site-our-serves__heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 64px;
+  }
+  
+  .site-our-serves__list {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
     flex-direction: column;
     text-align: center;
-    }
-    
-    .site-our-serves__item {
+  }
+  
+  .site-our-serves__item {
     margin-right: 80px;
     flex-direction: column;
     margin-bottom: 57px;
     text-align: center;
-    }
-    
-    .site-our-serves__item:last-child{
-      margin: 0;
-    }
-    
-    .site-our-serves__img {
+  }
+  
+  .site-our-serves__item:last-child{
+    margin: 0;
+  }
+  
+  .site-our-serves__img {
     display: block;
     
-    }
+  }
 }
