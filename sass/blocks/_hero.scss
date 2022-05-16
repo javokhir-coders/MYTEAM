@@ -7,7 +7,11 @@
   background-size: 200px 200px, 360px 200px;
   background-position: calc(50% - 730px) calc(50% - 90px), calc(50% + 370px) calc(50% + 255px);
   }
+
+
+
   
+
   .site-hero__inner {
   display: flex;
   align-items: center;
@@ -21,6 +25,13 @@
     color: #FFFFFF;
     margin: 0;
   }
+
+  .site-hero__heading{
+    font-weight: 700;
+font-size: 64px;
+line-height: 100px;
+color: #FFFFFF;
+  }
   
   .site-hero__span{
   color:#F67E7E ;
@@ -29,6 +40,11 @@
   .site-hero__content {
     width: 100%;
   max-width: 445px;
+  }
+
+  .site-hero__contentt {
+    width: 100%;
+  max-width: 730px;
   }
   
   .site-hero__line {
